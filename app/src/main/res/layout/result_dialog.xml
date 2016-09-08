@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/googlePlusColor"
+        android:gravity="center_vertical"
+        android:paddingLeft="13dp"
+        android:text="Data Tagihan"
+        android:textColor="@color/white"
+        android:textSize="21dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="13dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13dp">
+
+                <TextView
+                    android:id="@+id/lbl_idpel"
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="ID Pelanggan :" />
+
+                <TextView
+                    android:id="@+id/rb_lbl_idpel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/lbl_idpel"
+                    android:paddingLeft="13dp"
+                    android:text="---------------------" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13dp">
+
+                <TextView
+                    android:id="@+id/lbl_nama"
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="Nama :" />
+
+                <TextView
+                    android:id="@+id/rb_lbl_nama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/lbl_nama"
+                    android:paddingLeft="13dp"
+                    android:text="---------------------" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13dp">
+
+                <TextView
+                    android:id="@+id/lbl_alamat"
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="Alamat :" />
+
+                <TextView
+                    android:id="@+id/rb_lbl_alamat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/lbl_alamat"
+                    android:paddingLeft="13dp"
+                    android:text="---------------------" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13dp">
+
+                <TextView
+                    android:id="@+id/lbl_blth"
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="Bulan Tahun :" />
+
+                <TextView
+                    android:id="@+id/rb_lbl_blth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/lbl_blth"
+                    android:paddingLeft="13dp"
+                    android:text="---------------------" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13dp">
+
+                <TextView
+                    android:id="@+id/lbl_daya"
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="Daya :" />
+
+                <TextView
+                    android:id="@+id/rb_lbl_daya"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/lbl_daya"
+                    android:paddingLeft="13dp"
+                    android:text="---------------------" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13dp">
+
+                <TextView
+                    android:id="@+id/lbl_pemkwh"
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="Pemakaian(Kwh) :" />
+
+                <TextView
+                    android:id="@+id/rb_lbl_pemkwh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/lbl_pemkwh"
+                    android:paddingLeft="13dp"
+                    android:text="---------------------" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13dp">
+
+                <TextView
+                    android:id="@+id/lbl_tagihan"
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="Tagihan (Rp) :" />
+
+                <TextView
+                    android:id="@+id/rb_lbl_tagihan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/lbl_tagihan"
+                    android:paddingLeft="13dp"
+                    android:text="---------------------" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13dp">
+
+                <TextView
+                    android:id="@+id/lbl_terbilang"
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="Terbilang :" />
+
+                <TextView
+                    android:id="@+id/rb_lbl_terbilang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/lbl_terbilang"
+                    android:paddingLeft="13dp"
+                    android:text="---------------------" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="21dp">
+
+                <TextView
+                    android:id="@+id/lbl_tarif"
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="Tarif :" />
+
+                <TextView
+                    android:id="@+id/rb_lbl_tarif"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/lbl_tarif"
+                    android:paddingLeft="13dp"
+                    android:text="---------------------" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="21dp">
+
+                <TextView
+                    android:id="@+id/lbl_status"
+                    android:layout_width="114dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="Status :" />
+
+                <TextView
+                    android:id="@+id/rb_lbl_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/lbl_status"
+                    android:paddingLeft="13dp"
+                    android:text="---------------------"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#727272"></RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/rb_btn_simpan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@android:color/transparent"
+                    android:text="Simpan ID Pelanggan"
+                    android:textAllCaps="false"
+                    android:textColor="@color/googlePlusColor" />
+
+                <Button
+                    android:id="@+id/rb_btn_keluar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/rb_btn_simpan"
+                    android:background="@android:color/transparent"
+                    android:text="Keluar"
+                    android:textAllCaps="false"
+                    android:textColor="@color/googlePlusColor" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
